@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kusnadi.testing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.kusnadi.testing.CreateDataGuru"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ViewDataGuru"
+            android:label="Testing">
+        </activity>
+        <activity android:name=".EditDataGuru"
+            android:label="Testing">
+        </activity>
+
+        <activity android:name="com.example.kusnadi.testing.CreateDataSiswa"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ViewDataSiswa"
+            android:label="Testing">
+        </activity>
+        <activity android:name=".EditDataSiswa"
+            android:label="Testing">
+        </activity>
+
+        <activity android:name="com.example.kusnadi.testing.CreateDataPeralatan"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ViewDataPeralatan"
+            android:label="Testing">
+        </activity>
+        <activity android:name=".EditDataPeralatan"
+            android:label="Testing">
+        </activity>
+
+        <activity android:name="com.example.kusnadi.testing.CreateDataUser"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ViewDataUser"
+            android:label="Testing">
+        </activity>
+        <activity android:name=".EditDataUser"
+            android:label="Testing">
+        </activity>
+
+        <activity
+            android:name="com.example.kusnadi.testing.MenuLogin"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuGuru"
+            android:label="Testing">
+        </activity>
+
+    </application>
+
+</manifest>

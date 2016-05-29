@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/nama_guru"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Nama Guru"
+        android:ems="10">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/alamat"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Alamat"
+        android:ems="10">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/umur"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Umur"
+        android:ems="10">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/status"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Status"
+        android:ems="10">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/button_submit_guru"
+        android:text="Tambahkan Data Guru"
+        />
+
+</LinearLayout>
